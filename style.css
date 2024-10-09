@@ -1,0 +1,116 @@
+
+body{
+    background-color: #7ceff7;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+li a{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Apply the underline effect to list items on hover */
+ul li:hover {
+    position: relative;
+}
+ul li:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.signin{
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 40px;
+    width: 85px;
+    border-radius: 7px;
+    margin-left: 200px;
+}
+.signin:hover{
+    background-color: #000000;
+}
+.plan{
+    background-color: white;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.plan:hover{
+border: 2px solid black;
+height: 40px;
+    width: 113px;
+    border-radius: 7px;
+}
+
+.main{
+    display: flex;
+}
+.texthere{
+    margin-left: 20px;
+    margin-top: 63px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.texthere p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    opacity: 0.78;
+} 
+.plan2{
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+}
+.plan2:hover{
+    background-color: #000000;
+}
+.billi{
+    height: 479px;
+    width: 500px;
+}
+.brandlogo{
+    margin-left: 10px;
+}
